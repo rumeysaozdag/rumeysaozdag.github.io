@@ -8,15 +8,15 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url("TATLIŞ.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 200vh;
+    height: 100vh;
 }
 a{
     color:rgb(250, 250, 250);
 }
 .container{
     width: 80%;
-    
     margin: auto;
 }
 
@@ -210,6 +210,7 @@ nav .menü .menü-button:hover{
     margin-left: 140px;
     background: #fc8b2e;
 }
+/* */
 .search-input{
     font-size: 1.6rem;
     color: black;
@@ -260,6 +261,11 @@ nav .menü .menü-button:hover{
     
       
 }
+.container content {
+    
+    margin-top: 950px;
+}
+
 /*ffoter start*/
 
 
@@ -283,7 +289,9 @@ nav .menü .menü-button:hover{
 
     .content{
         padding-top: 50px;
+        
     }
+    
     .content h1{
         font-size: 36px;
    }
@@ -303,6 +311,7 @@ nav .menü .menü-button:hover{
 
 /* reponsive end */
 }
+
 .footer{
     background-color: #151D3B;
     text-align: center;
@@ -384,4 +393,3 @@ nav .menü .menü-button:hover{
  .footer .credit span{
     color:#3a487d;
  }
-
